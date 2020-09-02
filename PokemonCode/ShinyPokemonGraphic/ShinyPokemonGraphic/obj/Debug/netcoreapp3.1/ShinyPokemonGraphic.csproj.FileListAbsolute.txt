@@ -1,0 +1,63 @@
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.exe
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.deps.json
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.runtimeconfig.json
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.runtimeconfig.dev.json
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\WpfAnimatedGif.dll
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csprojAssemblyReference.cache
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic_MarkupCompile.cache
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic_MarkupCompile.lref
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.g.resources
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csproj.CoreCompileInputs.cache
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.AssemblyInfoInputs.cache
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.AssemblyInfo.cs
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csproj.CopyComplete
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
+C:\Users\gavin\Desktop\PokemonProject\TwitchGraphic\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.genruntimeconfig.cache
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.exe
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.deps.json
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.runtimeconfig.json
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.runtimeconfig.dev.json
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\WpfAnimatedGif.dll
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csprojAssemblyReference.cache
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic_MarkupCompile.cache
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic_MarkupCompile.lref
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.g.resources
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.AssemblyInfoInputs.cache
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.AssemblyInfo.cs
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csproj.CoreCompileInputs.cache
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csproj.CopyComplete
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
+C:\Users\gavin\Desktop\PokemonProject\Pokemon Code\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.genruntimeconfig.cache
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.exe
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.deps.json
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.runtimeconfig.json
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.runtimeconfig.dev.json
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\WpfAnimatedGif.dll
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csprojAssemblyReference.cache
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic_MarkupCompile.cache
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic_MarkupCompile.lref
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.g.resources
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.AssemblyInfoInputs.cache
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.AssemblyInfo.cs
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csproj.CoreCompileInputs.cache
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csproj.CopyComplete
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QFzAk2x0D1GTtqc1qc2RcS3oPl56Rq8virtIfCd1nxmt1r5yWhmSc6OifcQ1IKqdcrzq0iU694IZNG/hEuT/jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gavin\\Desktop\\PokemonProject\\PokemonCode\\ShinyPokemonGraphic\\ShinyPokemonGraphic\\ShinyPokemonGraphic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gavin\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\gavin\\.nuget\\packages\\wpfanimatedgif\\2.0.0\\wpfanimatedgif.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
