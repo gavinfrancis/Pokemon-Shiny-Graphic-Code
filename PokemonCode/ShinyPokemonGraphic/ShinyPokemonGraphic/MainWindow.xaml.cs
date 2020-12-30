@@ -30,7 +30,7 @@ namespace ShinyPokemonGraphic
         {
             InitializeComponent();
             initializeCount();
-            setCurrentOdds();
+            //setCurrentOdds();
         }
 
         //The goal of this is to be able to set this to load the first gif in the folder and make it work regardless of the name
@@ -45,7 +45,8 @@ namespace ShinyPokemonGraphic
             string firstFile = imgfolderPath + di.Name;
 
         }
-
+        
+        /**
         public void setCurrentOdds()
         {
             string path = "C:\\Users\\gavin\\Desktop\\PokemonProject\\BackgroundGraphics\\_CurrentOdds.txt";
@@ -64,6 +65,7 @@ namespace ShinyPokemonGraphic
             currentOdds.Content = content;
 
         }
+        **/
 
         public int setCountCurrent()
         {
@@ -106,7 +108,7 @@ namespace ShinyPokemonGraphic
         public void initializeCount()
         {
             currentCount.Content = setCountCurrent();
-            previousCount.Content = setCountPrevious();
+            //previousCount.Content = setCountPrevious();
         }
 
 

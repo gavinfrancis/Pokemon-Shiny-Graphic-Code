@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NEQUzLy2enYN0N8cebV0HRxtnfBadw8AUcq+c0PezZa1QVy7feI2vbH/hefDcUD1z6ypGdZrMQxHTFs4nUm25Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gavin\\Desktop\\PokemonProject\\PokemonProjectDouble\\PokemonProjectDouble\\PokemonProjectDouble.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gavin\\.nuget\\packages\\wpfanimatedgif\\2.0.0\\wpfanimatedgif.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -7,275 +7,162 @@
         xmlns:gif="http://wpfanimatedgif.codeplex.com"
         xmlns:local="clr-namespace:ShinyPokemonGraphic"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="2500"
+        Title="MainWindow" Height="1080" Width="2329"
         MouseLeftButtonDown="Window_MouseLeftButtonDown" 
     WindowStyle="None"  
       AllowsTransparency="True"  
       Background="Transparent">
-    <Canvas Width="2020" Height="1080" Name="RootLayout" RenderTransformOrigin="0.507,0.517" >
-        <Image Width="696" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\backgroundTempletMiddle.jpg" Height="168" Canvas.Left="141" RenderTransformOrigin="-0.071,0.22" Canvas.Top="445" />
-        <Image Width="546" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\backgroundSwitchTemplateRight.jpg" Height="498" Canvas.Left="743" RenderTransformOrigin="-0.071,0.22" Canvas.Top="-4" />
-        <Image Width="396" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\backgroundSwitchTemplateBottomLeft.jpg" Height="448" Canvas.Left="-100" RenderTransformOrigin="-0.071,0.22" Canvas.Top="485" />
-        <Image Width="559" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\backgroundSwitchTemplateRight.jpg" Height="508" Canvas.Left="743" RenderTransformOrigin="-0.071,0.22" Canvas.Top="-4" />
-        <Image Width="440" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\backgroundSwitchTemplateLeft.jpg" Height="891" Canvas.Left="-185" RenderTransformOrigin="-0.071,0.22" />
-        <Image Width="283" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\backgroundSwitchTemplateBottomRight.jpg" Height="487" Canvas.Left="796" RenderTransformOrigin="-0.071,0.22" Canvas.Top="456" />
+
+    <Canvas Height="1080" Name="RootLayout" RenderTransformOrigin="0.507,0.517" Margin="0,1,0,-1" HorizontalAlignment="Center" Width="1548" >
 
 
-
-
-        <Rectangle
-            Width="32"
-            Height="508"
-            Fill="Black"
-            Canvas.Left="58" Canvas.Top="-9" />
-
-        <Rectangle
-            Width="36"
-            Height="480"
-            Fill="Black"
-            Canvas.Left="952"
-            Canvas.Top="10" />
-
-        <Rectangle
-            Width="38"
-            Height="927"
-            Fill="Black"
-            Canvas.Left="506"
-            Canvas.Top="16" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
+        <Image Width="1003" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\hexType.JPG" Height="560" Canvas.Top="149" Canvas.Left="-254" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="-90.073"/>
+                    <RotateTransform Angle="90.156"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
+            </Image.RenderTransform>
+        </Image>
 
-        <Rectangle
-            Width="32"
-            Height="921"
-            Fill="Black"
-            Canvas.Left="512"
-            Canvas.Top="-454" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90.073"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
+        <Image Width="1109" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\hexType.JPG" Height="631" Canvas.Top="789" Canvas.Left="491" RenderTransformOrigin="0.5,0.5" ></Image>
+
+
+        <Image Width="238" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\pokeballBackground.PNG" Height="264" Canvas.Top="556" Canvas.Left="12" />
+        <Image x:Name="currentHunt" Width="116" gif:ImageBehavior.AnimatedSource="C:\Users\gavin\Desktop\PokemonProject\CurrentHunt\currentHuntGif.gif" Canvas.Top="626" Height="99" Canvas.Left="73"/>
+
+
+        <Image Width="281" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\ogTextBox.PNG" Height="86" Canvas.Top="645" Canvas.Left="239" />
+
 
 
         <Rectangle
-            Width="575"
-            Height="498"
-            Fill="Black"
-            Canvas.Left="1007"
-            Canvas.Top="375" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90.005"/>
-                    <TranslateTransform Y="-0.001"/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
+            Width="258"
+            Height="70"
+            Fill="White" Canvas.Left="250" Canvas.Top="652" />
 
 
-        <Image Width="194" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\c.png" Height="237" Canvas.Left="1072" Canvas.Top="389" />
-        <Image Width="194" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\c.png" Height="244" Canvas.Left="1076" Canvas.Top="653" />
-
-
-        <Image x:Name="previousHunt" Width="70" gif:ImageBehavior.AnimatedSource="C:\Users\gavin\Desktop\PokemonProject\LastShiny\lastShinyGif.gif" Canvas.Left="1138" Canvas.Top="699" Height="128" />
-        <Image x:Name="currentHunt" Width="80" gif:ImageBehavior.AnimatedSource="C:\Users\gavin\Desktop\PokemonProject\CurrentHunt\currentHuntGif.gif" Canvas.Left="1132" Canvas.Top="436" Height="144"/>
-
-
-        <Label x:Name="currentCount" Width="226" Height="68" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold" Content="0"  
+        <Label x:Name="currentCount" Width="226" Height="68" FontSize="30" FontFamily="'Trebuchet MS" FontWeight="Bold" Content="0"  
            HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="1220" Canvas.Top="465"  
-           Foreground="White" KeyDown="OnKeyDownHandler" RenderTransformOrigin="0.373,0.566">
+           Canvas.Left="266" Canvas.Top="652"  
+           Foreground="Black" KeyDown="OnKeyDownHandler" RenderTransformOrigin="0.373,0.566">
 
         </Label>
-        <Label Width="226" Height="68" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="1063" Canvas.Top="359"  
-           Foreground="White" RenderTransformOrigin="0.507,0.98" >
-            Current Hunt
-        </Label>
-
-        <Label x:Name="previousCount" Width="226" Height="68" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold" Content="0"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="1216" Canvas.Top="744"  
-           Foreground="White" KeyDown="OnKeyDownHandler" RenderTransformOrigin="0.373,0.451">
-
-        </Label>
-
-        <Label Width="226" Height="68" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="1059" Canvas.Top="623"  
-           Foreground="White" RenderTransformOrigin="0.507,0.98" >
-            Last Shiny
-        </Label>
-
-
-        <Rectangle
-            Width="319"
-            Height="478"
-            Fill="Black"
-            Canvas.Left="1129"
-            Canvas.Top="-71" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90.005"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-
-        <Rectangle
-            Width="317"
-            Height="674"
-            Fill="Black"
-            Canvas.Left="309"
-            Canvas.Top="376" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90.005"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Image Width="221" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\shinyTorchic.png" Height="112" Canvas.Top="755" Canvas.Left="629" />
-
-        <Label x:Name="currentOdds" Width="322" Height="58" FontSize="18" FontFamily="Comic Sans MS" FontWeight="Bold" Content="0"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="340" Canvas.Top="594"  
-           Foreground="White" RenderTransformOrigin="0.507,0.98" >
-        </Label>
-
 
         <Rectangle
             Width="19"
-            Height="327"
-            Fill="MidnightBlue"
-            Canvas.Left="1046"
-            Canvas.Top="2" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.02"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
+            Height="801"
+            Fill="Black" Canvas.Left="527" Canvas.Top="-9" />
 
         <Rectangle
-            Width="24"
-            Height="327"
-            Fill="MidnightBlue"
-            Canvas.Left="1520" RenderTransformOrigin="0.5,0.5" Canvas.Top="2" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.341"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-
-        <Rectangle
-            Width="16"
-            Height="499"
-            Fill="MidnightBlue"
-            Canvas.Left="1287"
-            Canvas.Top="84" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90.00"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
+            Width="210"
+            Height="107"
+            Fill="Black" Canvas.Top="57" Canvas.Left="1626" />
 
 
-        <Rectangle
-            Width="17"
-            Height="499"
-            Fill="MidnightBlue"
-            Canvas.Left="1287"
-            Canvas.Top="-242" RenderTransformOrigin="0.5,0.5" >
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90.464"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-
-        <Label Width="266" Height="42" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="370" Canvas.Top="776"  
-           Foreground="White" RenderTransformOrigin="0.507,0.98" >
-            :Join Gavnuts Discord!
-        </Label>
-
-
-        <Image Width="64" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\twitter.png" Height="74" Canvas.Left="342" Canvas.Top="643" RenderTransformOrigin="-0.071,0.22" />
-        <Image Width="123" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\youtube.png" Height="95" Canvas.Left="311" Canvas.Top="696" RenderTransformOrigin="-0.071,0.22" />
-        <Image Width="72" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\materball.png" Height="126" Canvas.Left="338" Canvas.Top="563" RenderTransformOrigin="-0.071,0.22" />
-        <Image Width="221" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\GavinComission.jpg" Height="241" Canvas.Left="135" Canvas.Top="600" RenderTransformOrigin="-0.071,0.22" />
-        <Image Width="48" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\discord.png" Height="52" Canvas.Left="348" Canvas.Top="773" RenderTransformOrigin="-0.071,0.22" />
-
-
-        <Label Width="183" Height="68" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="389" Canvas.Top="645"  
-           Foreground="White" RenderTransformOrigin="0.507,0.98" >
-            :@ChildishGaviino
-        </Label>
-
-        <Label Width="266" Height="42" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="112" Canvas.Top="555"  
-           Foreground="White" RenderTransformOrigin="0.507,0.98" >
-            --Trainer Card--
-        </Label>
-
-        <Label Width="132" Height="42" FontSize="20" FontFamily="Comic Sans MS" FontWeight="Bold"  
-           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
-           Canvas.Left="383" Canvas.Top="721"  
-           Foreground="White" RenderTransformOrigin="0.507,0.98" >
-            :Gavnuts lll
-        </Label>
 
         <Button x:Name="Button" Content="+"
           Click="plusButton" ClickMode="Press"
           Margin="5" Width="86"
           Background="LightGreen"
           FontSize="40"
-          Foreground="Green" Canvas.Left="1421" Canvas.Top="433" Height="60" RenderTransformOrigin="-0.112,0.481"/>
+          Foreground="Black" Canvas.Top="80" Height="60" RenderTransformOrigin="-0.112,0.481" Canvas.Left="1645"/>
 
         <Button x:Name="Button2" Content="-"
           Click="subButton" ClickMode="Press"
           Margin="5" Width="86"
-          Background="PaleVioletRed"
+          Background="LightCoral"
           FontSize="40"
-          Foreground="Green" Canvas.Left="1421" Canvas.Top="493" Height="60" RenderTransformOrigin="-0.112,0.481"/>
-
+          Foreground="Black" Canvas.Left="1731" Canvas.Top="80" Height="60" RenderTransformOrigin="-0.112,0.481"/>
+        <Rectangle
+            Width="18"
+            Height="818"
+            Fill="Black" Canvas.Left="1528" Canvas.Top="-9" />
+        <Rectangle
+            Width="34"
+            Height="1020"
+            Fill="Black" Canvas.Left="1020" RenderTransformOrigin="0.5,0.5" Canvas.Top="288" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.408"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle
+            Width="52"
+            Height="1016"
+            Fill="Black" Canvas.Left="1011" RenderTransformOrigin="0.5,0.5" Canvas.Top="-494" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle
+            Width="498"
+            Height="18"
+            Fill="Black" Canvas.Top="10" Canvas.Left="10" />
+        <Rectangle
+            Width="498"
+            Height="20"
+            Fill="Black" Canvas.Top="372" Canvas.Left="10" />
+        <Rectangle
+            Width="376"
+            Height="18"
+            Fill="Black" Canvas.Top="190" RenderTransformOrigin="0.5,0.5" Canvas.Left="-169" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.976"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle
+            Width="380"
+            Height="18"
+            Fill="Black" Canvas.Top="192" RenderTransformOrigin="0.5,0.5" Canvas.Left="315" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.976"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image Width="994" Source="3ce46333-94e3-4f99-a4d0-c3ff2028ec34" Height="555" Canvas.Top="356" Canvas.Left="-1005" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle
+            Width="34"
+            Height="1019"
+            Fill="Black" Canvas.Left="1020" RenderTransformOrigin="0.5,0.5" Canvas.Top="289" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.408"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
 
     </Canvas>
 

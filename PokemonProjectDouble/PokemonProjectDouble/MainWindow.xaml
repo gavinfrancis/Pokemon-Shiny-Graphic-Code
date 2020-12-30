@@ -1,0 +1,217 @@
+﻿<Window x:Class="ShinyPokemonGraphic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:ShinyPokemonGraphic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="2329"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown" 
+    WindowStyle="None"  
+      AllowsTransparency="True"  
+      Background="Transparent">
+
+    <Canvas Height="1080" Name="RootLayout" RenderTransformOrigin="0.507,0.517" Margin="0,1,0,-1" HorizontalAlignment="Center" Width="1548" >
+
+        <Image Width="1109" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\hexType.JPG" Height="631" Canvas.Top="590" Canvas.Left="-311" RenderTransformOrigin="0.5,0.5" ></Image>
+        <Image Width="1109" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\hexType2.JPG" Height="631" Canvas.Top="591" Canvas.Left="740" RenderTransformOrigin="0.5,0.5" ></Image>
+
+
+        <Image Width="238" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\pokeballBackground.PNG" Height="264" Canvas.Top="603" />
+        <Image x:Name="currentHunt" Width="96" gif:ImageBehavior.AnimatedSource="C:\Users\gavin\Desktop\PokemonProject\CurrentHunt\currentHuntGif.gif" Canvas.Top="663" Height="108" Canvas.Left="71"/>
+
+
+        <Image Width="238" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\pokeballBackground.PNG" Height="264" Canvas.Top="603" Canvas.Left="1309" />
+        <Image x:Name="currentHunt2" Width="98" gif:ImageBehavior.AnimatedSource="C:\Users\gavin\Desktop\PokemonProject\CurrentHunt\currentHuntGif2.gif" Canvas.Top="679" Height="104" Canvas.Left="1379"/>
+
+
+        <Image Width="280" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\ogTextBox.PNG" Height="86" Canvas.Top="694" Canvas.Left="224" />
+        <Image Width="280" Source="C:\Users\gavin\Desktop\PokemonProject\BackgroundGraphics\ogTextBox.PNG" Height="86" Canvas.Top="694" Canvas.Left="1044" />
+
+
+
+
+        <Rectangle
+            Width="258"
+            Height="70"
+            Fill="White" Canvas.Left="237" Canvas.Top="701" />
+
+
+        <Label x:Name="currentCount" Width="226" Height="68" FontSize="30" FontFamily="'Trebuchet MS" FontWeight="Bold" Content="0"  
+           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
+           Canvas.Left="235" Canvas.Top="704"  
+           Foreground="Black" KeyDown="OnKeyDownHandler" RenderTransformOrigin="0.373,0.566">
+
+        </Label>
+
+        <Rectangle
+            Width="21"
+            Height="587"
+            Fill="Black" Canvas.Left="1" />
+
+        <Rectangle
+            Width="210"
+            Height="107"
+            Fill="Black" Canvas.Top="57" Canvas.Left="1626" />
+
+
+
+        <Button x:Name="Button" Content="+"
+          Click="plusButton" ClickMode="Press"
+          Margin="5" Width="86"
+          Background="LightGreen"
+          FontSize="40"
+          Foreground="Black" Canvas.Top="80" Height="60" RenderTransformOrigin="-0.112,0.481" Canvas.Left="1645"/>
+
+        <Button x:Name="Button2" Content="-"
+          Click="subButton" ClickMode="Press"
+          Margin="5" Width="86"
+          Background="LightCoral"
+          FontSize="40"
+          Foreground="Black" Canvas.Left="1731" Canvas.Top="80" Height="60" RenderTransformOrigin="-0.112,0.481"/>
+
+        <Rectangle
+            Width="210"
+            Height="107"
+            Fill="Black" Canvas.Top="217" Canvas.Left="1628" />
+
+        <Button x:Name="Button3" Content="+"
+          Click="plusButton2" ClickMode="Press"
+          Margin="5" Width="86"
+          Background="LightGreen"
+          FontSize="40"
+          Foreground="Black" Canvas.Top="234" Height="60" RenderTransformOrigin="-0.112,0.481" Canvas.Left="1645"/>
+
+        <Button x:Name="Button4" Content="-"
+          Click="subButton2" ClickMode="Press"
+          Margin="5" Width="86"
+          Background="LightCoral"
+          FontSize="40"
+          Foreground="Black" Canvas.Left="1731" Canvas.Top="234" Height="60" RenderTransformOrigin="-0.112,0.481"/>
+
+
+
+
+        <Rectangle
+            Width="52"
+            Height="579"
+            Fill="Black" Canvas.Left="740" Canvas.Top="4" />
+        <Rectangle
+            Width="37"
+            Height="772"
+            Fill="Black" Canvas.Left="368" RenderTransformOrigin="0.5,0.5" Canvas.Top="-370" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-1.857"/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform X="-0.843"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle
+            Width="391"
+            Height="18"
+            Fill="Black" Canvas.Top="886" Canvas.Left="544" />
+        <Rectangle
+            Width="391"
+            Height="20"
+            Fill="Black" Canvas.Top="590" Canvas.Left="544" />
+        <Rectangle
+            Width="290"
+            Height="18"
+            Fill="Black" Canvas.Top="740" RenderTransformOrigin="0.5,0.5" Canvas.Left="781" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.976"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle
+            Width="290"
+            Height="18"
+            Fill="Black" Canvas.Top="732" RenderTransformOrigin="0.5,0.5" Canvas.Left="407" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.976"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image Width="994" Source="3ce46333-94e3-4f99-a4d0-c3ff2028ec34" Height="555" Canvas.Top="356" Canvas.Left="-1005" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle
+            Width="22"
+            Height="771"
+            Fill="Black" Canvas.Left="373" RenderTransformOrigin="0.5,0.5" Canvas.Top="196" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.408"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle
+            Width="22"
+            Height="779"
+            Fill="Black" Canvas.Left="1145" RenderTransformOrigin="0.5,0.5" Canvas.Top="191" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.954"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle
+            Width="31"
+            Height="582"
+            Fill="Black" Canvas.Left="1517" />
+        <Rectangle
+            Width="38"
+            Height="780"
+            Fill="Black" Canvas.Left="1138" RenderTransformOrigin="0.5,0.5" Canvas.Top="-374" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-1.857"/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform X="-0.843"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle
+            Width="258"
+            Height="70"
+            Fill="White" Canvas.Left="1056" Canvas.Top="701" />
+
+        <Label x:Name="currentCount2" Width="226" Height="68" FontSize="30" FontFamily="'Trebuchet MS" FontWeight="Bold" Content="0"  
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
+            Canvas.Left="1071" Canvas.Top="704"  
+            Foreground="Black" KeyDown="OnKeyDownHandler" RenderTransformOrigin="0.373,0.566"/>
+
+
+    </Canvas>
+
+
+
+</Window>

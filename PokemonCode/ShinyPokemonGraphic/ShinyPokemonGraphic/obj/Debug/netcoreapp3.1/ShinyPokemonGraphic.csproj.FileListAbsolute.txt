@@ -47,7 +47,6 @@ C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokem
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\bin\Debug\netcoreapp3.1\WpfAnimatedGif.dll
-C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csprojAssemblyReference.cache
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic_MarkupCompile.cache
@@ -61,3 +60,4 @@ C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokem
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.dll
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.pdb
 C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.genruntimeconfig.cache
+C:\Users\gavin\Desktop\PokemonProject\PokemonCode\ShinyPokemonGraphic\ShinyPokemonGraphic\obj\Debug\netcoreapp3.1\ShinyPokemonGraphic.csprojAssemblyReference.cache

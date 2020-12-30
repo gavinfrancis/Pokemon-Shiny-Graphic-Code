@@ -1,0 +1,9 @@
+Rectangle: https://docs.microsoft.com/en-us/dotnet/framework/wpf/graphics-multimedia/how-to-draw-a-rectangle
+
+Installing nuget: https://dzone.com/articles/install-nuget-packages-in-visual-studio
+	-Animated Gif with nuget: https://stackoverflow.com/questions/210922/how-do-i-get-an-animated-gif-to-work-in-wpf
+	
+
+Changing Fonts: https://en.wikipedia.org/wiki/Font_family_(HTML)
+
+Shaped Windows and Draging: https://www.c-sharpcorner.com/uploadfile/mahesh/shaped-windows-in-wpf/
